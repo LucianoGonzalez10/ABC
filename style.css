@@ -1,0 +1,110 @@
+body{
+ background-image: url(media/fondo3.png);
+}
+.general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.zona1{
+    width: 33%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.logo{
+    width: 33%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zona2{
+    width: 33%;
+    height: 700px;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-right: auto;
+}
+
+.tituloZona{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    width: 35%;
+    height: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border-radius: 20px;
+}
+.direcciones{
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 35%;
+}
+.celular{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 35px;
+    margin-top: -47px;
+    margin-left: 5%;
+}
+
+.logoWsp{
+    width: 7%;
+    margin-left: 28%;
+}
+.clickA{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: -20px;
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    body{
+        background-color: black;
+        background-image: none;
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    .zona1{
+        width: 100%;
+    }
+    .zona2{
+        width: 100%;
+        margin-left: auto;
+        margin-top: -40%;
+    }
+    .tituloZona{
+        width: 60%;
+    }
+    .direcciones{
+        margin-left: 25%;
+    }
+    .celular{
+        margin-top: 3%;
+        margin-left: 12%;
+    }
+    .logoWsp{
+        margin-left: 13%;
+        margin-top: 1%;
+        width: 10%;
+        position: absolute;
+
+    }
+}
