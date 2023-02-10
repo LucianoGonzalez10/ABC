@@ -70,7 +70,20 @@ body{
 a{
     text-decoration: none;
 }
-
+.servi{
+    margin-top: -10%;
+    margin-left: 41%;
+}
+.servicioD{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid red 3px;
+    background-color: red;
+    margin-right: auto;
+}
 @media (max-width: 800px) {
     body{
         background-color: black;
@@ -106,5 +119,19 @@ a{
         width: 10%;
         position: absolute;
 
+    }
+ .servi{
+        margin-top: -50%;
+        margin-left: 0%;
+    }
+    .servicioD{
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        border-radius: 10px;
+        border: solid red 3px;
+        background-color: red;
+        margin-right: auto;
     }
 }
