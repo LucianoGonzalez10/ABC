@@ -97,8 +97,9 @@ a{
 
 @media (max-width: 800px) {
     body{
-        background-image: url(media/fondo2.png);
+        background-image: url(media/fondo.png);
         background-position: center;
+        background-repeat: repeat;
     }
     .logoABC{
         z-index: 1;
@@ -111,7 +112,7 @@ a{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 25%;
+        margin-top: 20%;
     }
     .zona1{
         margin-top: 20%;
