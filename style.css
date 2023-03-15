@@ -97,13 +97,14 @@ a{
 
 @media (max-width: 800px) {
     body{
-        background-color: black;
-        background-image: none;
+        background-image: url(media/fondo2.png);
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .logoABC{
-        width: 19%;
+        width: 25%;
         position: absolute;
-        margin-left: 78%;
+        margin-left: 36%;
         margin-top: -20%;
     }
     .general{
@@ -126,21 +127,23 @@ a{
     }
     .direcciones{
         margin-left: 25%;
-        font-size: 17px;
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 34px;
     }
     .celular{
-        margin-top: 3%;
+        margin-top: 30%;
         margin-left: 25%;
         font-size: 18px;
     }
     .logoWsp{
         margin-left: 6%;
-        margin-top: 1%;
+        margin-top: 15%;
         width: 5%;
         position: absolute;
     }
     .servi{
-        margin-top: -104%;
+        margin-top: -110%;
         margin-left: auto;
         margin-right: auto;
     }
